@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:background="#333333"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvNameResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations Name"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your score is 1/5"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20sp"
+        android:alpha="0.7"
+        android:textStyle="bold">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Конец"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="20dp">
+
+    </Button>
+
+</LinearLayout>
